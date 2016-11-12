@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "types": ["react", "react-dom"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
